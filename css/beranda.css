@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(250, 128, 114, 0.136);
+}
+
+nav {
+    width: 100%;
+    background-color: palevioletred;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: brown;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .banner {
+    background-color: rgba(250, 128, 114, 0.136);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header .banner h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #df744a;
+}
+
+header .banner p {
+    font-size: 18px;
+    color: #eb0a0a;
+}
+
+h2{
+    color: #df744a;
+}
+.kategori, .products {
+    padding: 20px;
+}
+
+.kategori h2, .products h2 {
+    font-size: 24px;
+    color: #df744a;
+    margin-bottom: 10px;
+}
+
+.kata-list, .product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.kata {
+    background-color: white;
+    border: 1px solid white;
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.kata:hover {
+    background-color: #df744a;
+    color: white;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid white;
+    padding: 20px;
+    flex: 1 1 calc(25% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: 200px; 
+    object-fit: cover; 
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.product p {
+    font-size: 16px;
+    color: #666;
+}
+
+.product button {
+    background-color: #df744a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #cc5200;
+}

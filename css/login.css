@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgba(250, 128, 114, 0.136);
+}
+nav {
+  width: 100%;
+  background-color: palevioletred;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: brown;
+  text-decoration: none;
+  font-size: 18px;
+}
+header {
+  color: #df744a;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+header .banner h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+header .banner p {
+  font-size: 18px;
+}
+.container {
+  width: 400px;
+  background-color: rgba(250, 128, 114, 0.256);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #df744a;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-registrasi {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #df744a;
+  color: brown;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
